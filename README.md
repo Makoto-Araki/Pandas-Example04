@@ -7,7 +7,7 @@ NEC(6701)の [**HP**](https://finance.yahoo.co.jp/quote/6701.T/history) の株�
 ```
 main[(main['終値'] >= 6250) & (main['終値'] < 6300)]
 ```
-![画像1](./Pandas-Exercises4-1.png)
+![画像1](./image01.png)
 
 <br>
 
@@ -15,7 +15,7 @@ main[(main['終値'] >= 6250) & (main['終値'] < 6300)]
 ```
 main[(main['終値'] >= 6250) & (main['終値'] < 6300)].to_csv(r'C:\\Users\\Owner\\Pandas-Exercises4\\6701_NEC.csv')
 ```
-![画像2](./Pandas-Exercises4-2.png)
+![画像2](./image02.png)
 
 <br>
 
@@ -30,4 +30,6 @@ reader = pd.read_csv(r'C:\\Users\\Owner\\Pandas-Exercises4\\6701_NEC.csv', index
 ```
 reader
 ```
-![画像3](./Pandas-Exercises4-3.png)
+![画像3](./image03.png)
+
+<br>
